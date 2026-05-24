@@ -1,0 +1,2397 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "factions3-1.21.1",
+      "name": "factions3 (Minecraft 1.21.1)",
+      "description": "factions3 Running Minecraft 1.21.1 (Fabric v0.19.2)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1968930,
+            "MD5": "d692407a67129e913b4210218edebb20",
+            "url": "https://github.com/mdnstudios/repo/lib/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.19.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "628f31bafe2624d190770db1b666d002",
+                "url": "https://github.com/mdnstudios/repo/versions/1.21.1-fabric-0.19.2/1.21.1-fabric-0.19.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mdnstudios/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mdnstudios/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mdnstudios/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mdnstudios/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mdnstudios/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540039,
+                "MD5": "4b6b96074976cc7aa096b9e569ca623e",
+                "url": "https://github.com/mdnstudios/repo/lib/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://github.com/mdnstudios/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.choicetheorem:ctov:3.6.2b@jar",
+          "name": "ChoiceTheorem's Overhauled Village",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8077964,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/[fabric]ctov-3.6.2b.jar",
+            "MD5": "8ecc0703a1947dfa6cb3eecbf9c06e19"
+          }
+        },
+        {
+          "id": "fabric.fun.qu_an.minecraft:asyncparticles:3.4.0-beta.1@jar",
+          "name": "AsyncParticles",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1279192,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/AsyncParticles-3.4.0-beta.1+1.21.1.jar",
+            "MD5": "95533453413e85761099423c31c58d47"
+          }
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 283566,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/BadOptimizations-2.4.1-1.21.1.jar",
+            "MD5": "59ee243a5ccd09fff1dd2879b3cad72a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cardinal-components:6.1.3@jar",
+          "name": "Cardinal Components API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 229645,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/cardinal-components-api-6.1.3.jar",
+            "MD5": "8febe13b1c2df1e90a6fa8b5de8521a4"
+          }
+        },
+        {
+          "id": "org.popcraft:chunky:1.4.23@jar",
+          "name": "Chunky",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342979,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Chunky-Fabric-1.4.23.jar",
+            "MD5": "2f9ea1108ade07fc89d8e75a9510163c"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "tech.thatgravyboat:creeperoverhaul:4.0.6@jar",
+          "name": "Creeper Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1180412,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/CreeperOverhaul-fabric-1.21.1-4.0.6.jar",
+            "MD5": "8556a388758c0aafb6c2a4b5fbf528a4"
+          }
+        },
+        {
+          "id": "de.cristelknight:cristellib:3.0.3@jar",
+          "name": "Cristel Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 540121,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/cristellib-fabric-1.21.1-3.0.3.jar",
+            "MD5": "945ac7d49bcc065a7b3506ddc603d30d"
+          }
+        },
+        {
+          "id": "com.github.eterdelta:crittersandcompanions:1.21.1-2.3.4@jar",
+          "name": "Critters and Companions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3996131,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/crittersandcompanions-fabric-1.21.1-2.3.4.jar",
+            "MD5": "6b2d08f1febead1f7a3547b355507c82"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0+mc1.21@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81288,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/cwb-fabric-3.0.0+mc1.21.jar",
+            "MD5": "2817802772c08e9ea780a42f9a205bdf"
+          }
+        },
+        {
+          "id": "generated.fabricmod:debugify:1.21.1+1.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 292202,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Debugify-1.21.1+1.0.jar",
+            "MD5": "604cf2f99be0b208a3354783f5b56fa2"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:3.0.0-b@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 30015849,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/DistantHorizons-3.0.0-b-1.21.1.jar",
+            "MD5": "f0e42ae057a955cfd68472181c0fc88e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtavernsancientcityoverhaul:1-v2@jar",
+          "name": "Dungeons and Taverns Ancient City Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 945500,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dungeons-and-taverns-ancient-city-overhaul-v2.jar",
+            "MD5": "fdfda5c659c9d7c512c8d5885a251294"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtavernspillageroutpostoverhaul:1-v2.2@jar",
+          "name": "Dungeons and Taverns Pillager Outpost Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 516061,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dungeons-and-taverns-pillager-outpost-overhaul-v2.2.jar",
+            "MD5": "cc52b326a318a2dd580eaaf706c88105"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtavernsswamphutoverhaul:1-v2@jar",
+          "name": "Dungeons and Taverns Swamp Hut Overhaul",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 111906,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dungeons-and-taverns-swamp-hut-overhaul-v2.jar",
+            "MD5": "d2127e96b7c7271d87ffac180ae58c3c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtaverns:1-v4.4.4@jar",
+          "name": "Dungeons and Taverns",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24859360,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dungeons-and-taverns-v4.4.4.jar",
+            "MD5": "a699403795f74dec1fa9bc3a0dd408c2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_dungeons_andtavernswoodlandmansionreplacement:1-v1.2@jar",
+          "name": "Dungeons and Taverns Woodland Mansion Replacement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4687463,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dungeons-and-taverns-woodland-mansion-replacement-v1.2.jar",
+            "MD5": "b604e233658ac5936f43670b4e6e4c67"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 217532,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+            "MD5": "aa6037fac4244ba15a7ea67adc335eff"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc.bundle:easy_npc_bundle:6.12.0@jar",
+          "name": "Easy NPC (Bundle)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25260,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/easy_npc_bundle-fabric-1.21.1-6.12.0.jar",
+            "MD5": "e42856a77f490e5411629387b2e722f6"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc.configui:easy_npc_config_ui:6.12.0@jar",
+          "name": "Easy NPC: Config UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 775579,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/easy_npc_config_ui-fabric-1.21.1-6.12.0.jar",
+            "MD5": "5c25ce5fae14df500bc056b33cbe31a4"
+          }
+        },
+        {
+          "id": "de.markusbordihn.easynpc:easy_npc:6.12.0@jar",
+          "name": "Easy NPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1994790,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/easy_npc-fabric-1.21.1-6.12.0.jar",
+            "MD5": "f8535720e8fde4a02453438fe9f9831a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:enchanted:vertical-slabs-2.3.2-fabric-mc1.21@jar",
+          "name": "Enchanted",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 254412,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/enchanted-vertical-slabs-2.3.2-fabric-mc1.21.jar",
+            "MD5": "f4ec170677404d4c0ac7c51fe20d0689"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.10.2+1.21@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 201157,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/enhancedblockentities-0.10.2+1.21.jar",
+            "MD5": "793df59eddd294419dabcca66d1458ef"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1560675,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/entityculling-fabric-1.9.5-mc1.21.1.jar",
+            "MD5": "fa490d1bdbb00c612dead5ab52b0b323"
+          }
+        },
+        {
+          "id": "generated.fabricmod:explorify:1.6.4@jar",
+          "name": "Explorify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 951495,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Explorify%20v1.6.4%20f15-88.mod.jar",
+            "MD5": "aef04ab27f59e69257a7c5278e0ef758"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.9+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425600,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/fabric-api-0.116.9+1.21.1.jar",
+            "MD5": "b7ce8a460c6c9d4538536730864dd818"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.9+kotlin.2.3.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7642216,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+            "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d"
+          }
+        },
+        {
+          "id": "com.mdns:factionsost:1.0-SNAPSHOT@jar",
+          "name": "FactionsOST",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 413627327,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/factionsost-1.0-SNAPSHOT.jar",
+            "MD5": "7f407d1b2982b5d9e8c17070be048e57"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/ferritecore-7.0.3-fabric.jar",
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d"
+          }
+        },
+        {
+          "id": "com.github.thedeathlycow:frostiful:2.3.1+1.21.1@jar",
+          "name": "Frostiful",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2445127,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/frostiful-2.3.1+1.21.1.jar",
+            "MD5": "da60d32d0ddb9b1a041c3863976f5e03"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.12@jar",
+          "name": "Fusion",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 515411,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/fusion-1.2.12-fabric-mc1.21.jar",
+            "MD5": "2220961413c51080d4ce12c0fb5f958d"
+          }
+        },
+        {
+          "id": "software.bernie:geckolib:4.8.4@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 653722,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/geckolib-fabric-1.21.1-4.8.4.jar",
+            "MD5": "0044e7b8b4d4096257031692f5995a2c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.10+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342770,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar",
+            "MD5": "15a2eafb373bf55d7db6b45971110825"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.8@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161045,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/krypton-0.2.8.jar",
+            "MD5": "9ba3d734dac0e59deb4721f2f23c65ad"
+          }
+        },
+        {
+          "id": "ru.vidtu.ksyxis.platform:ksyxis:1.3.4@jar",
+          "name": "Ksyxis",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 29869,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Ksyxis-1.3.4.jar",
+            "MD5": "665af2d0045f1ff0fde3898a49155145"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.5+1.21.1@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 74984,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/language-reload-1.7.5+1.21.1.jar",
+            "MD5": "5eb3dfbde5828b4d305af18b92e1aa9c"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797398,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/lithium-fabric-0.15.3+mc1.21.1.jar",
+            "MD5": "469d5a220904850809f35f92f53854f1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_lithosphere:1.7@jar",
+          "name": "Lithosphere",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 527182,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/lithosphere-1.7.jar",
+            "MD5": "c7c8080aac427bab7432f554dfe3b13b"
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.6.1@jar",
+          "name": "Lithostitched",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 767226,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/lithostitched-1.6.1-fabric-1.21.1.jar",
+            "MD5": "9bc2321bd6fb79276609e6f4fb22262f"
+          }
+        },
+        {
+          "id": "de.the_build_craft:maplink:4.4.0@jar",
+          "name": "Map Link",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1322955,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/maplink-fabric-4.4.0-1.21-1.21.1.jar",
+            "MD5": "b4074544b20c082973994549f7e14210"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21-1.6@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 62761,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/modelfix-1.21-1.6-fabric.jar",
+            "MD5": "7bbde6d3602d01d925df77c79e6ae477"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/modernfix-fabric-5.25.1+mc1.21.1.jar",
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "com.finndog:moogs_structures:1.1.0-1.21-1.21.1-fabric@jar",
+          "name": "Moog's Structure Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 238468,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/moogs_structures-1.1.0-1.21-1.21.1-fabric.jar",
+            "MD5": "f0113e010da141b70b3c62ad24b15e47"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mvs:5.0.5@jar",
+          "name": "MoogsVoyagerStructures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2670229,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/MoogsVoyagerStructures-1.21-5.0.5.jar",
+            "MD5": "12ac559170d35c57542998a4f2ccb194"
+          }
+        },
+        {
+          "id": "net.tschipcraft:moremobs:1.5.8+mod@jar",
+          "name": "More Mobs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 367873,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/more_mobs-v1.5.8-mc1.14-1.21.11-mod.jar",
+            "MD5": "7b2b87d4b10bd8b38a2376b1b67e46bf"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.0.7@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 346926,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/moreculling-fabric-1.21.1-1.0.7.jar",
+            "MD5": "25a3b661d2cf7ea41d7e5d9d04010cce"
+          }
+        },
+        {
+          "id": "generated.fabricmod:packetfixer:3.3.1@jar",
+          "name": "Packet Fixer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 46623,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+            "MD5": "8f22fb065079340a72ae5ce0da12efcb"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:paxi:1.21.1-Fabric-5.1.3@jar",
+          "name": "Paxi",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 230652,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Paxi-1.21.1-Fabric-5.1.3.jar",
+            "MD5": "f341aedaf0e882baa9df180a7f82d2cd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.4.2+1.21@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 232325,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/placeholder-api-2.4.2+1.21.jar",
+            "MD5": "4de8568a088a276c94168514d625413d"
+          }
+        },
+        {
+          "id": "com.blackgear:platform:1.2.11.5@jar",
+          "name": "Platform",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 731829,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Platform-fabric-1.21.1-1.2.11.5.jar",
+            "MD5": "c4fc621837807483609abb15e137056f"
+          }
+        },
+        {
+          "id": "com.supermartijn642:rechiseled:1.2.4@jar",
+          "name": "Rechiseled",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11913849,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/rechiseled-1.2.4-fabric-mc1.21%20(1).jar",
+            "MD5": "ed15b2605a5e08998aad62a371b64a2a"
+          }
+        },
+        {
+          "id": "com.teamresourceful.resourcefulconfig.web.server:resourcefulconfig:3.0.11@jar",
+          "name": "Resourcefulconfig",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 345396,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/resourcefulconfig-fabric-1.21-3.0.11.jar",
+            "MD5": "1ee62431638048c9c8188988a38b12bb"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:3.0.12@jar",
+          "name": "Resourceful Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 485586,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/resourcefullib-fabric-1.21-3.0.12.jar",
+            "MD5": "89dac4248b76747800fbc00fa063825e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:ribbits:1.21.1-Fabric-4.1.6@jar",
+          "name": "Ribbits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2343967,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/Ribbits-1.21.1-Fabric-4.1.6.jar",
+            "MD5": "dd198eb2a52dfd9e7ab5727f0356df34"
+          }
+        },
+        {
+          "id": "com.github.teamfusion.rottencreatures.core:rottencreatures:1.1.2@jar",
+          "name": "RottenCreatures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2621031,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/rottencreatures-fabric-1.21.1-1.1.2.jar",
+            "MD5": "37c87a4e08500a63240edc933dced2dc"
+          }
+        },
+        {
+          "id": "ca.spottedleaf.starlight:scalablelux:0.1.0.1+fabric.d0d58ab@jar",
+          "name": "ScalableLux",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 177266,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/ScalableLux-0.1.0.1+fabric.d0d58ab-all.jar",
+            "MD5": "34cb60a3db0f2439db221bc3325c1411"
+          }
+        },
+        {
+          "id": "me.wesley1808:servercore:1.5.10+1.21.1@jar",
+          "name": "ServerCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 905717,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/servercore-fabric-1.5.10+1.21.1.jar",
+            "MD5": "476b32c1f734cfda39a8a7768ff00496"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.0+mc1.21.1@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 373661,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/sodium-extra-fabric-0.6.0+mc1.21.1.jar",
+            "MD5": "a2aa3212fe6397f39984b8c9e840956a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_still_life:0.1.1@jar",
+          "name": "Still Life",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4714182,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/still-life-0.1.1.jar",
+            "MD5": "d91038d663989425cea9356fa5b7f478"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206993,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+            "MD5": "fff83455887d85c6f7ebac7bba24fa8f"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.20@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 616841,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/supermartijn642corelib-1.1.20-fabric-mc1.21.jar",
+            "MD5": "7f757abd87496632e997adab4f4ac9da"
+          }
+        },
+        {
+          "id": "generated.fabricmod:t_and_t:1.13.7@jar",
+          "name": "Towns and Towers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3641681,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/t_and_t-neoforge-fabric-1.13.7+1.21.1.jar",
+            "MD5": "6c1d9eed93d997b734174a42949c9aaf"
+          }
+        },
+        {
+          "id": "com.izofar:takesapillage:1.0.10@jar",
+          "name": "It Takes a Pillage Continuation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3297576,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/takesapillage-fabric-1.0.10+mc1.21.1.jar",
+            "MD5": "661a918be352d06fa3489c3f0f708e70"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:4.1.0.8@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337990,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+            "MD5": "c82218938313a31a2e7d55028fe97e3a"
+          }
+        },
+        {
+          "id": "com.github.thedeathlycow.thermoo.impl:thermoo:4.8.0@jar",
+          "name": "Thermoo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 275602,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/thermoo-4.8.0.jar",
+            "MD5": "ffec2d7ee60bb8512dcaa91c99018420"
+          }
+        },
+        {
+          "id": "com.github.getchoo.smoothboot:threadtweak:0.1.5+mc1.21.1@jar",
+          "name": "ThreadTweak",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 144270,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/threadtweak-fabric-0.1.5+mc1.21.1.jar",
+            "MD5": "68af87a76a40c84e613ef90c08219ba7"
+          }
+        },
+        {
+          "id": "com.faboslav:variantsandventures:1.0.23@jar",
+          "name": "Variants&Ventures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1085814,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/variantsandventures-fabric-1.0.23+mc1.21.1.jar",
+            "MD5": "96a3ed69082e2fbf76d92157d0783811"
+          }
+        },
+        {
+          "id": "com.faboslav:villagesandpillages:1.0.3@jar",
+          "name": "Villages & Pillages",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 239268,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/villagesandpillages-fabric-mc1.21.1-1.0.3.jar",
+            "MD5": "8b9acfa8b7dd764783137ab724c0823a"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.3.8+6939-7d32b45@jar",
+          "name": "WorldEdit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6222854,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/worldedit-mod-7.3.8.jar",
+            "MD5": "f5d6f09ca5c4b1958780d01a099b779d"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2177333,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/xaerominimap-fabric-1.21.1-25.3.10.jar",
+            "MD5": "0ae4f63c97b972ef3fdcd918c924feb5"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1413973,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+            "MD5": "bb6a594507dc9db0a981b2a2d6cf910c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:xxlpackets:1.0.5-1.21@jar",
+          "name": "XXLPackets",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15238,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/xlpackets-1.0.5-1.21.jar",
+            "MD5": "cbff0be019b0a76e0e0b65da4f3381c9"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131265,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+            "MD5": "aadf11f5a793296be7c195e1ca388492"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.21.1-Fabric-5.1.6@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1257492,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/YungsApi-1.21.1-Fabric-5.1.6.jar",
+            "MD5": "117aa2db815986b1346ff6464d99aa6f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungscavebiomes:1.21.1-Fabric-3.1.1@jar",
+          "name": "YUNG's Cave Biomes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13130733,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/fabricmods/required/YungsCaveBiomes-1.21.1-Fabric-3.1.1.jar",
+            "MD5": "9ed3fe2e2823876b2b783aa40ffca036"
+          }
+        },
+        {
+          "id": "asyncparticles-mixin.properties",
+          "name": "asyncparticles-mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2091,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/asyncparticles/asyncparticles-mixin.properties",
+            "MD5": "fb050365eb54140f639021b5a948203d",
+            "path": "config/asyncparticles/asyncparticles-mixin.properties"
+          }
+        },
+        {
+          "id": "asyncparticles.json",
+          "name": "asyncparticles.json",
+          "type": "File",
+          "artifact": {
+            "size": 1416,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/asyncparticles/asyncparticles.json",
+            "MD5": "06f4a5f9247683344dd615d93da3ec24",
+            "path": "config/asyncparticles/asyncparticles.json"
+          }
+        },
+        {
+          "id": "badoptimizations.txt",
+          "name": "badoptimizations.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3458,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/badoptimizations.txt",
+            "MD5": "7714652525dd4a0c873ddfc124aac217",
+            "path": "config/badoptimizations.txt"
+          }
+        },
+        {
+          "id": "cardinal-components-api.properties",
+          "name": "cardinal-components-api.properties",
+          "type": "File",
+          "artifact": {
+            "size": 452,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cardinal-components-api.properties",
+            "MD5": "7a5c42bb5538c774652ad99f2a3b0078",
+            "path": "config/cardinal-components-api.properties"
+          }
+        },
+        {
+          "id": "creeperoverhaul.jsonc",
+          "name": "creeperoverhaul.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 1913,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/creeperoverhaul.jsonc",
+            "MD5": "61d051fff7b4e873a6b1065f596e744c",
+            "path": "config/creeperoverhaul.jsonc"
+          }
+        },
+        {
+          "id": "crepperoverhaul-client.jsonc",
+          "name": "crepperoverhaul-client.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 389,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/crepperoverhaul-client.jsonc",
+            "MD5": "9395984d47634716dd0888f2ae5662a4",
+            "path": "config/crepperoverhaul-client.jsonc"
+          }
+        },
+        {
+          "id": "auto_config_settings.json5",
+          "name": "auto_config_settings.json5",
+          "type": "File",
+          "artifact": {
+            "size": 895,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/auto_config_settings.json5",
+            "MD5": "aa54d6d3b89813d75245fef9f3d2ce81",
+            "path": "config/cristellib/auto_config_settings.json5"
+          }
+        },
+        {
+          "id": "built_in_packs.json5",
+          "name": "built_in_packs.json5",
+          "type": "File",
+          "artifact": {
+            "size": 419,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/built_in_packs.json5",
+            "MD5": "3676bf100666a582b4d62c5c83be9f6c",
+            "path": "config/cristellib/built_in_packs.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1382,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/explorify/structure_placement_config.json5",
+            "MD5": "4ea6b3bd5f4c618c0c7e71f6e102a70a",
+            "path": "config/cristellib/explorify/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 902,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/explorify/structure_toggle_config.json5",
+            "MD5": "944ba94180f177e05442016578f22f78",
+            "path": "config/cristellib/explorify/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 218,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/frostiful/structure_placement_config.json5",
+            "MD5": "5d60dbcae880319867e5bee40de19741",
+            "path": "config/cristellib/frostiful/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/frostiful/structure_toggle_config.json5",
+            "MD5": "306a31bd5c5c5ada190976abc2bf6932",
+            "path": "config/cristellib/frostiful/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2703,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5",
+            "MD5": "c79a7a685a03e2bcb39d3102426683df",
+            "path": "config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 3679,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtaverns/structure_toggle_config.json5",
+            "MD5": "a48b91ae8ae1252aec4226dfcbb65f80",
+            "path": "config/cristellib/mr_dungeons_andtaverns/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 127,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_placement_config.json5",
+            "MD5": "519fa9938da89ccfce804a82d502aafa",
+            "path": "config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_toggle_config.json5",
+            "MD5": "8872173a2ef61b687dcba2e1b4110b6b",
+            "path": "config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 151,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_placement_config.json5",
+            "MD5": "31106aaeeb404589a21a8c160fceac8b",
+            "path": "config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_toggle_config.json5",
+            "MD5": "f6334f228b995568b49e0fcd906625d2",
+            "path": "config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_placement_config.json5",
+            "MD5": "a3adeca98ef192417db5e5f91a9a75c5",
+            "path": "config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 88,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_toggle_config.json5",
+            "MD5": "2465be45a69c2a1d49952966ac3fcf7b",
+            "path": "config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 211,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernswoodlandmansionreplacement/structure_placement_config.json5",
+            "MD5": "86df6cc8578593b9f16ffcdf2489aef4",
+            "path": "config/cristellib/mr_dungeons_andtavernswoodlandmansionreplacement/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mr_dungeons_andtavernswoodlandmansionreplacement/structure_toggle_config.json5",
+            "MD5": "5a107280bb0edf4ff89a4649d87717d7",
+            "path": "config/cristellib/mr_dungeons_andtavernswoodlandmansionreplacement/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 5753,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/mvs/structure_toggle_config.json5",
+            "MD5": "fa2e410334ff81c85bc135e9ea1fab31",
+            "path": "config/cristellib/mvs/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/ribbits/structure_toggle_config.json5",
+            "MD5": "35ca02fc8b56323f320c011e05570bb0",
+            "path": "config/cristellib/ribbits/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_placement_config.json5",
+          "name": "structure_placement_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 132,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/takesapillage/structure_placement_config.json5",
+            "MD5": "2a980f67eaaea711f6b207719c48f8fa",
+            "path": "config/cristellib/takesapillage/structure_placement_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/takesapillage/structure_toggle_config.json5",
+            "MD5": "d73dbc427b172c41dfb9d89d808ecbe9",
+            "path": "config/cristellib/takesapillage/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "structure_toggle_config.json5",
+          "name": "structure_toggle_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cristellib/villagesandpillages/structure_toggle_config.json5",
+            "MD5": "6844bc503c2762953a310bdb6bb204d9",
+            "path": "config/cristellib/villagesandpillages/structure_toggle_config.json5"
+          }
+        },
+        {
+          "id": "crittersandcompanions-common.toml",
+          "name": "crittersandcompanions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1466,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/crittersandcompanions-common.toml",
+            "MD5": "239cb32c2490410139ef84bf93805576",
+            "path": "config/crittersandcompanions-common.toml"
+          }
+        },
+        {
+          "id": "ctov.json",
+          "name": "ctov.json",
+          "type": "File",
+          "artifact": {
+            "size": 955,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/ctov.json",
+            "MD5": "2ea1d6bbc16f0bfc7a49c564c31e8f55",
+            "path": "config/ctov.json"
+          }
+        },
+        {
+          "id": "cubes-without-borders.json",
+          "name": "cubes-without-borders.json",
+          "type": "File",
+          "artifact": {
+            "size": 209,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/cubes-without-borders.json",
+            "MD5": "0856304051aafde1f6d2810b28dbe2b9",
+            "path": "config/cubes-without-borders.json"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 32636,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/DistantHorizons.toml",
+            "MD5": "e73b2a7efc594825e87680f926ad9910",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "dynamic_fps.json",
+          "name": "dynamic_fps.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/dynamic_fps.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/dynamic_fps.json"
+          }
+        },
+        {
+          "id": "npc_base.cfg",
+          "name": "npc_base.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 211,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/npc_base.cfg",
+            "MD5": "64609f9295e31c75c4a90c48e52fd6ad",
+            "path": "config/easy_npc/npc_base.cfg"
+          }
+        },
+        {
+          "id": "fb563026-8694-4b93-830f-c45af7495108.npc.nbt",
+          "name": "fb563026-8694-4b93-830f-c45af7495108.npc.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2324,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/preset/humanoid/fb563026-8694-4b93-830f-c45af7495108.npc.nbt",
+            "MD5": "92fed0dfd8e113c96f4c340a46dae3ec",
+            "path": "config/easy_npc/preset/humanoid/fb563026-8694-4b93-830f-c45af7495108.npc.nbt"
+          }
+        },
+        {
+          "id": "marlene.npc.nbt",
+          "name": "marlene.npc.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2278,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/preset/humanoid/marlene.npc.nbt",
+            "MD5": "56eaf5c14161a6caf465b441ebbd9e77",
+            "path": "config/easy_npc/preset/humanoid/marlene.npc.nbt"
+          }
+        },
+        {
+          "id": "marlene.npc.snbt",
+          "name": "marlene.npc.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 6272,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/preset/humanoid/marlene.npc.snbt",
+            "MD5": "2bd9a7b7a60b0e7088a45da8ab25a718",
+            "path": "config/easy_npc/preset/humanoid/marlene.npc.snbt"
+          }
+        },
+        {
+          "id": "render_entity_type_support.cfg",
+          "name": "render_entity_type_support.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 33519,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/render_entity_type_support.cfg",
+            "MD5": "12fa4860879904318d5dc8816375988c",
+            "path": "config/easy_npc/render_entity_type_support.cfg"
+          }
+        },
+        {
+          "id": "allay_template.png",
+          "name": "allay_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/allay/allay_template.png",
+            "MD5": "dc449d0dd6cb93d91fa6e34ecd44376a",
+            "path": "config/easy_npc/skin/allay/allay_template.png"
+          }
+        },
+        {
+          "id": "cat_template.png",
+          "name": "cat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 283,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/cat/cat_template.png",
+            "MD5": "ddb9d8f03724aa1fe201fd7fbefb81da",
+            "path": "config/easy_npc/skin/cat/cat_template.png"
+          }
+        },
+        {
+          "id": "chicken_template.png",
+          "name": "chicken_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/chicken/chicken_template.png",
+            "MD5": "f06078d2850eb0020f2e86dd93c84a5a",
+            "path": "config/easy_npc/skin/chicken/chicken_template.png"
+          }
+        },
+        {
+          "id": "creeper_template.png",
+          "name": "creeper_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/creeper/creeper_template.png",
+            "MD5": "460afd5ae6039e184859666d02797e9d",
+            "path": "config/easy_npc/skin/creeper/creeper_template.png"
+          }
+        },
+        {
+          "id": "ender_man_template.png",
+          "name": "ender_man_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/ender_man/ender_man_template.png",
+            "MD5": "11a98be328121d89396fa59e1aa29df2",
+            "path": "config/easy_npc/skin/ender_man/ender_man_template.png"
+          }
+        },
+        {
+          "id": "fairy_template.png",
+          "name": "fairy_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 434,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/fairy/fairy_template.png",
+            "MD5": "531b238034eb6fdcf494378d6de62d69",
+            "path": "config/easy_npc/skin/fairy/fairy_template.png"
+          }
+        },
+        {
+          "id": "fox_template.png",
+          "name": "fox_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 335,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/fox/fox_template.png",
+            "MD5": "5850512e21b0c58b42207510a63a923d",
+            "path": "config/easy_npc/skin/fox/fox_template.png"
+          }
+        },
+        {
+          "id": "humanoid_template.png",
+          "name": "humanoid_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/humanoid/humanoid_template.png",
+            "MD5": "a39224182358dcbf6615b9faeb732933",
+            "path": "config/easy_npc/skin/humanoid/humanoid_template.png"
+          }
+        },
+        {
+          "id": "humanoid_slim_template.png",
+          "name": "humanoid_slim_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+            "MD5": "41f831333d68c3a4535adbe574f0511c",
+            "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png"
+          }
+        },
+        {
+          "id": "Persona-3-Elizabeth-on-planetminecraft-com.png",
+          "name": "Persona-3-Elizabeth-on-planetminecraft-com.png",
+          "type": "File",
+          "artifact": {
+            "size": 1440,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/humanoid_slim/Persona-3-Elizabeth-on-planetminecraft-com.png",
+            "MD5": "d66db620664d790a38d579f094e89448",
+            "path": "config/easy_npc/skin/humanoid_slim/Persona-3-Elizabeth-on-planetminecraft-com.png"
+          }
+        },
+        {
+          "id": "husk_template.png",
+          "name": "husk_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/husk/husk_template.png",
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/husk/husk_template.png"
+          }
+        },
+        {
+          "id": "illager_template.png",
+          "name": "illager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 300,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/illager/illager_template.png",
+            "MD5": "62e2eafe9879c26a5d39f6eed5a0d4c0",
+            "path": "config/easy_npc/skin/illager/illager_template.png"
+          }
+        },
+        {
+          "id": "iron_golem_template.png",
+          "name": "iron_golem_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 451,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/iron_golem/iron_golem_template.png",
+            "MD5": "041e19a3a9e328e569c1572c60bf7f82",
+            "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png"
+          }
+        },
+        {
+          "id": "orc_template.png",
+          "name": "orc_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/orc/orc_template.png",
+            "MD5": "529d5d314ad4dc8f697f7341f35cab74",
+            "path": "config/easy_npc/skin/orc/orc_template.png"
+          }
+        },
+        {
+          "id": "pig_template.png",
+          "name": "pig_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 270,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/pig/pig_template.png",
+            "MD5": "cfc2538d1df812a5ee4ced14b78f9fd3",
+            "path": "config/easy_npc/skin/pig/pig_template.png"
+          }
+        },
+        {
+          "id": "piglin_template.png",
+          "name": "piglin_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/piglin/piglin_template.png",
+            "MD5": "54ae451400c57b4832f976487e7bf629",
+            "path": "config/easy_npc/skin/piglin/piglin_template.png"
+          }
+        },
+        {
+          "id": "skeleton_template.png",
+          "name": "skeleton_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/skeleton/skeleton_template.png",
+            "MD5": "b6f689ff48f8cd4b03a51947133a3857",
+            "path": "config/easy_npc/skin/skeleton/skeleton_template.png"
+          }
+        },
+        {
+          "id": "spider_template.png",
+          "name": "spider_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 308,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/spider/spider_template.png",
+            "MD5": "03664e96aea4f091f754f2b853f2b853",
+            "path": "config/easy_npc/skin/spider/spider_template.png"
+          }
+        },
+        {
+          "id": "stray_template.png",
+          "name": "stray_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/stray/stray_template.png",
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/stray/stray_template.png"
+          }
+        },
+        {
+          "id": "vex_template.png",
+          "name": "vex_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/vex/vex_template.png",
+            "MD5": "37f6d362729979569dd8f1f4e6429f07",
+            "path": "config/easy_npc/skin/vex/vex_template.png"
+          }
+        },
+        {
+          "id": "villager_template.png",
+          "name": "villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 357,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/villager/villager_template.png",
+            "MD5": "30e84778924e6c66aef598b8a3cd728a",
+            "path": "config/easy_npc/skin/villager/villager_template.png"
+          }
+        },
+        {
+          "id": "villager_without_hat_template.png",
+          "name": "villager_without_hat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/villager/villager_without_hat_template.png",
+            "MD5": "3d8bca495a0fad6240e900d343c9f1d7",
+            "path": "config/easy_npc/skin/villager/villager_without_hat_template.png"
+          }
+        },
+        {
+          "id": "witch_template.png",
+          "name": "witch_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 431,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/witch/witch_template.png",
+            "MD5": "3f15cb59a845607aca5614bd12e9df62",
+            "path": "config/easy_npc/skin/witch/witch_template.png"
+          }
+        },
+        {
+          "id": "wolf_template.png",
+          "name": "wolf_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/wolf/wolf_template.png",
+            "MD5": "0adf39c4b15ec11850e85fdfcd8e0a59",
+            "path": "config/easy_npc/skin/wolf/wolf_template.png"
+          }
+        },
+        {
+          "id": "zombie_template.png",
+          "name": "zombie_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 292,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/zombie/zombie_template.png",
+            "MD5": "a38b0b7043eb7c0e91379628aeed1db2",
+            "path": "config/easy_npc/skin/zombie/zombie_template.png"
+          }
+        },
+        {
+          "id": "zombie_villager_template.png",
+          "name": "zombie_villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+            "MD5": "b0748467bd2149105ad4d922c7799ed0",
+            "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png"
+          }
+        },
+        {
+          "id": "spawner_type.cfg",
+          "name": "spawner_type.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 934,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/spawner_type.cfg",
+            "MD5": "00b05a2a7a29ee362947ede8d9098721",
+            "path": "config/easy_npc/spawner_type.cfg"
+          }
+        },
+        {
+          "id": "user_defined_npcs.json",
+          "name": "user_defined_npcs.json",
+          "type": "File",
+          "artifact": {
+            "size": 465,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/easy_npc/user_defined_npcs.json",
+            "MD5": "d82b4dd015a0cde1b54fb7055bc7f6fb",
+            "path": "config/easy_npc/user_defined_npcs.json"
+          }
+        },
+        {
+          "id": "enhanced_bes.properties",
+          "name": "enhanced_bes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 512,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/enhanced_bes.properties",
+            "MD5": "7eacbb0dcf49eb56e8123fa95fe80577",
+            "path": "config/enhanced_bes.properties"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1897,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/entityculling.json",
+            "MD5": "422b1718498a957ece2de2453634102a",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "0fb697317ec6c2f830cd18e62f0515a4",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1615,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/ferritecore.mixin.properties",
+            "MD5": "5c31ce8efe368dbbf5051a46985ffcd2",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forgeconfigapiport.toml",
+          "name": "forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/forgeconfigapiport.toml",
+            "MD5": "80b3cd8edc58e5849bf5a7a0c48bd4ef",
+            "path": "config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "frostiful.json",
+          "name": "frostiful.json",
+          "type": "File",
+          "artifact": {
+            "size": 2753,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/frostiful.json",
+            "MD5": "3c5dcf25ba1bf028b41175085be93651",
+            "path": "config/frostiful.json"
+          }
+        },
+        {
+          "id": "hybrid-aquatic.json",
+          "name": "hybrid-aquatic.json",
+          "type": "File",
+          "artifact": {
+            "size": 43926,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/hybrid-aquatic.json",
+            "MD5": "8fde2bc365bfecf72d6e04d62d9a8afc",
+            "path": "config/hybrid-aquatic.json"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1114,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/immediatelyfast.json",
+            "MD5": "8c5364d78b0f6f9c1461f88ca38e8d84",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 319,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/iris.properties",
+            "MD5": "c2c18429ad5692356172ae9c5c1e711f",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "languagereload.json",
+          "name": "languagereload.json",
+          "type": "File",
+          "artifact": {
+            "size": 185,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/languagereload.json",
+            "MD5": "0c190b9f71905a060b4d842ec1128f48",
+            "path": "config/languagereload.json"
+          }
+        },
+        {
+          "id": "lithium.properties",
+          "name": "lithium.properties",
+          "type": "File",
+          "artifact": {
+            "size": 267,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/lithium.properties",
+            "MD5": "65a61a8f2201e0a571d48a7f0295da19",
+            "path": "config/lithium.properties"
+          }
+        },
+        {
+          "id": "lithostitched.json",
+          "name": "lithostitched.json",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/lithostitched.json",
+            "MD5": "345e5fd8f4228a78675c761850e85ba9",
+            "path": "config/lithostitched.json"
+          }
+        },
+        {
+          "id": "friends.json5",
+          "name": "friends.json5",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/maplink/friends.json5",
+            "MD5": "c6e0afa2e2380191f7f0fe35c96964eb",
+            "path": "config/maplink/friends.json5"
+          }
+        },
+        {
+          "id": "general.json5",
+          "name": "general.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1896,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/maplink/general.json5",
+            "MD5": "df9d3ded8138dc889175b115b2dd79a5",
+            "path": "config/maplink/general.json5"
+          }
+        },
+        {
+          "id": "hud.json5",
+          "name": "hud.json5",
+          "type": "File",
+          "artifact": {
+            "size": 656,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/maplink/hud.json5",
+            "MD5": "99bf22eff23e92dd43c53d9ed143046a",
+            "path": "config/maplink/hud.json5"
+          }
+        },
+        {
+          "id": "minimap.json5",
+          "name": "minimap.json5",
+          "type": "File",
+          "artifact": {
+            "size": 626,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/maplink/minimap.json5",
+            "MD5": "ea5e64444627e8ea3a01b4d298921b38",
+            "path": "config/maplink/minimap.json5"
+          }
+        },
+        {
+          "id": "worldmap.json5",
+          "name": "worldmap.json5",
+          "type": "File",
+          "artifact": {
+            "size": 630,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/maplink/worldmap.json5",
+            "MD5": "8fe9a745dfc8c51187273a3a73309523",
+            "path": "config/maplink/worldmap.json5"
+          }
+        },
+        {
+          "id": "modelfix-client.json",
+          "name": "modelfix-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/modelfix-client.json",
+            "MD5": "af2d4dfa62f6c4292257d5e86d3ceb0f",
+            "path": "config/modelfix-client.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4106,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/modernfix-mixins.properties",
+            "MD5": "7c130638cf8878676ebd54267769cd01",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 840,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/modmenu.json",
+            "MD5": "6f801fc101c146e1c993f05544858c34",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "moreculling.toml",
+          "name": "moreculling.toml",
+          "type": "File",
+          "artifact": {
+            "size": 540,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/moreculling.toml",
+            "MD5": "f8beb616c4a3a52cbab5827b0df5e67e",
+            "path": "config/moreculling.toml"
+          }
+        },
+        {
+          "id": "subtitles.json",
+          "name": "subtitles.json",
+          "type": "File",
+          "artifact": {
+            "size": 411,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/noxutil/subtitles.json",
+            "MD5": "c3607791e1b9135b21146f72e8524008",
+            "path": "config/noxutil/subtitles.json"
+          }
+        },
+        {
+          "id": "packetfixer.properties",
+          "name": "packetfixer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 489,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/packetfixer.properties",
+            "MD5": "33be734c6b1f5d5fa8ad4ff94fae265d",
+            "path": "config/packetfixer.properties"
+          }
+        },
+        {
+          "id": "datapack_load_order.json",
+          "name": "datapack_load_order.json",
+          "type": "File",
+          "artifact": {
+            "size": 21,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/paxi/datapack_load_order.json",
+            "MD5": "2b5a68474a47e7ef0a7185933f38b114",
+            "path": "config/paxi/datapack_load_order.json"
+          }
+        },
+        {
+          "id": "resourcepack_load_order.json",
+          "name": "resourcepack_load_order.json",
+          "type": "File",
+          "artifact": {
+            "size": 21,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/paxi/resourcepack_load_order.json",
+            "MD5": "2b5a68474a47e7ef0a7185933f38b114",
+            "path": "config/paxi/resourcepack_load_order.json"
+          }
+        },
+        {
+          "id": "paxi-fabric-1_21.toml",
+          "name": "paxi-fabric-1_21.toml",
+          "type": "File",
+          "artifact": {
+            "size": 48,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/paxi-fabric-1_21.toml",
+            "MD5": "c8389c3fa86e6f90c93b9fd66df43964",
+            "path": "config/paxi-fabric-1_21.toml"
+          }
+        },
+        {
+          "id": "resourceful-config-web.json",
+          "name": "resourceful-config-web.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/resourceful-config-web.json",
+            "MD5": "d224d91f87d9ad04477b40cf12a922f6",
+            "path": "config/resourceful-config-web.json"
+          }
+        },
+        {
+          "id": "ribbits-fabric-1_21_1.toml",
+          "name": "ribbits-fabric-1_21_1.toml",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/ribbits-fabric-1_21_1.toml",
+            "MD5": "8939dc8b0ea6391ce6ffc54781e4fe04",
+            "path": "config/ribbits-fabric-1_21_1.toml"
+          }
+        },
+        {
+          "id": "ribbits-options.json",
+          "name": "ribbits-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 33,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/ribbits-options.json",
+            "MD5": "ae7a8e3293c7c466d1210c5de3459a52",
+            "path": "config/ribbits-options.json"
+          }
+        },
+        {
+          "id": "scalablelux.properties",
+          "name": "scalablelux.properties",
+          "type": "File",
+          "artifact": {
+            "size": 85,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/scalablelux.properties",
+            "MD5": "81b5c4ea9eb1f22b1a24b434944fa515",
+            "path": "config/scalablelux.properties"
+          }
+        },
+        {
+          "id": "config.yml",
+          "name": "config.yml",
+          "type": "File",
+          "artifact": {
+            "size": 12255,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/servercore/config.yml",
+            "MD5": "611e483be8361e3d34395545d17e35ae",
+            "path": "config/servercore/config.yml"
+          }
+        },
+        {
+          "id": "optimizations.yml",
+          "name": "optimizations.yml",
+          "type": "File",
+          "artifact": {
+            "size": 1392,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/servercore/optimizations.yml",
+            "MD5": "7d1200ccbfa1cc6d2abe994480c6464b",
+            "path": "config/servercore/optimizations.yml"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1522,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/sodium-extra-options.json",
+            "MD5": "df1af55d3e9af90a8e1554899fe2f0d2",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "d8dd14921bd1d12755bfba943941435f",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 686,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/sodium-options.json",
+            "MD5": "3e6fc213a535f11099cb884f3f1f6d74",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "discord_config.json",
+          "name": "discord_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/support/discord_config.json",
+            "MD5": "f722f7d9a710218ef916bab5ed1b8f13",
+            "path": "config/support/discord_config.json"
+          }
+        },
+        {
+          "id": "takesapillage.json",
+          "name": "takesapillage.json",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/takesapillage.json",
+            "MD5": "d60d65bd2f7dd7e1dc1f6a916e3a51af",
+            "path": "config/takesapillage.json"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 988,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/terrablender.toml",
+            "MD5": "f833bc1281a0152f4e2abf27ee1ad512",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "thermoo.properties",
+          "name": "thermoo.properties",
+          "type": "File",
+          "artifact": {
+            "size": 253,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/thermoo.properties",
+            "MD5": "b1ce9dbbc7ea010b5b390db980052d33",
+            "path": "config/thermoo.properties"
+          }
+        },
+        {
+          "id": "threadtweak.json",
+          "name": "threadtweak.json",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/threadtweak.json",
+            "MD5": "9b4eaf42ccfeb23573b6821b98804d5d",
+            "path": "config/threadtweak.json"
+          }
+        },
+        {
+          "id": "structure_enable_or_disable_new.json5",
+          "name": "structure_enable_or_disable_new.json5",
+          "type": "File",
+          "artifact": {
+            "size": 3051,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/towns_and_towers/structure_enable_or_disable_new.json5",
+            "MD5": "fbccc75e368d3ee378b2415421c0abde",
+            "path": "config/towns_and_towers/structure_enable_or_disable_new.json5"
+          }
+        },
+        {
+          "id": "structure_rarity_new.json5",
+          "name": "structure_rarity_new.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1520,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/towns_and_towers/structure_rarity_new.json5",
+            "MD5": "ed94246ff48f8f7f92e7d77c33c3a95f",
+            "path": "config/towns_and_towers/structure_rarity_new.json5"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 62,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/transition.json",
+            "MD5": "939cbb1d75f242d47e2aa1a9d536a3e7",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 47,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/trender.json",
+            "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "placement_structure_config.json5",
+          "name": "placement_structure_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1690,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/vanilla_structures/placement_structure_config.json5",
+            "MD5": "c26bb09ed1ad04c12e6f37313274d1cc",
+            "path": "config/vanilla_structures/placement_structure_config.json5"
+          }
+        },
+        {
+          "id": "toggle_structure_config.json5",
+          "name": "toggle_structure_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1423,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/vanilla_structures/toggle_structure_config.json5",
+            "MD5": "672f5f27e8132d7b4499765c26625c83",
+            "path": "config/vanilla_structures/toggle_structure_config.json5"
+          }
+        },
+        {
+          "id": "variantsandventures.json",
+          "name": "variantsandventures.json",
+          "type": "File",
+          "artifact": {
+            "size": 1193,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/variantsandventures.json",
+            "MD5": "26c2396ff422d7e5e42f78d312e520bb",
+            "path": "config/variantsandventures.json"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/lib/client.cfg",
+            "MD5": "dd7d24d2b991f7648671c16d0a74c265",
+            "path": "config/xaero/lib/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/lib/common.cfg",
+            "MD5": "e085e122e32132e1fa73ac927f7ece81",
+            "path": "config/xaero/lib/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/lib/profiles/default.cfg",
+            "MD5": "e6a2491cfa99c4163942c19eb7b4c489",
+            "path": "config/xaero/lib/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/lib/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/lib/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/client.cfg",
+            "MD5": "f3f48f8150d9623b9e48c9eb378cea11",
+            "path": "config/xaero/minimap/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/common.cfg",
+            "MD5": "48d56532be92f58e976a2d1753abdd35",
+            "path": "config/xaero/minimap/common.cfg"
+          }
+        },
+        {
+          "id": "default_radar_categories_client.json",
+          "name": "default_radar_categories_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/default_radar_categories_client.json",
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "path": "config/xaero/minimap/default_radar_categories_client.json"
+          }
+        },
+        {
+          "id": "default_radar_categories_server.json",
+          "name": "default_radar_categories_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 4597,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/default_radar_categories_server.json",
+            "MD5": "7ffe568a308241b93166af2d45ce79c7",
+            "path": "config/xaero/minimap/default_radar_categories_server.json"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3756,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/profiles/default.cfg",
+            "MD5": "d20ac5dd673c094cbd276be32828dee5",
+            "path": "config/xaero/minimap/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg.json",
+          "name": "default.cfg.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "path": "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+          }
+        },
+        {
+          "id": "default.cfg.txt",
+          "name": "default.cfg.txt",
+          "type": "File",
+          "artifact": {
+            "size": 684,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+            "MD5": "64d98932063f0be723920fbdb1de1268",
+            "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/minimap/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/minimap/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 468,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/world-map/client.cfg",
+            "MD5": "a51c5e06952fe8258de0e16e5f470b96",
+            "path": "config/xaero/world-map/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/world-map/common.cfg",
+            "MD5": "b5ddb993fe4200e02fec18254463b2c2",
+            "path": "config/xaero/world-map/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1379,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/world-map/profiles/default.cfg",
+            "MD5": "f4151e7df2284ff2ab24bef0ca2365c2",
+            "path": "config/xaero/world-map/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaero/world-map/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/world-map/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "xaerohud.txt",
+          "name": "xaerohud.txt",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaerohud.txt",
+            "MD5": "16e10ac2af0c379ea8b13b8525fc85be",
+            "path": "config/xaerohud.txt"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/yacl.json5",
+            "MD5": "9378f7cef65c5208431350700cf83a11",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "yungscavebiomes-fabric-1_20_1.toml",
+          "name": "yungscavebiomes-fabric-1_20_1.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1066,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/config/yungscavebiomes-fabric-1_20_1.toml",
+            "MD5": "f0215ad5d55eb0f2fd060d3a7abea0c5",
+            "path": "config/yungscavebiomes-fabric-1_20_1.toml"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5585,
+            "url": "https://github.com/mdnstudios/servers/factions3-1.21.1/files/options.txt",
+            "MD5": "aa171d844cdd41f4c4396db56f55cf65",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
