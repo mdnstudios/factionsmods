@@ -1,0 +1,8 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "guild_id": "YOUR_GUILD_ID_HERE",
+  "channel_id": "YOUR_CHANNEL_ID_HERE",
+  "role_id": "YOUR_ROLE_ID_HERE",
+  "enabled": true,
+  "message_format": "🆘 **Solicitud de ayuda** | \u003c@\u0026{role_id}\u003e\nEl jugador **{username}** necesita ayuda.\n📍 Coordenadas: `{coords}`\n🌍 Dimensión: `{dimension}`"
+}

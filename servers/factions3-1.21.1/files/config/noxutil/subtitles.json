@@ -1,0 +1,12 @@
+[
+  {
+    "_comment": "This is an example saved subtitle entry. Copy and adapt it.",
+    "id": "my_custom_subtitle",
+    "sound": "noxutil:my_custom_sound",
+    "lines": [
+      { "text": "This is line 1.",        "startMs": 0,    "endMs": 3000 },
+      { "text": "This is line 2.",        "startMs": 3200, "endMs": 6000 },
+      { "text": "And a third line...",    "startMs": 6200, "endMs": 9000 }
+    ]
+  }
+]

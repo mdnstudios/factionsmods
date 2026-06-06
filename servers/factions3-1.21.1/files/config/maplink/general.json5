@@ -1,0 +1,73 @@
+{
+	"enabled": true,
+	"serverEntries": [
+		{
+			"maptype": "Squaremap",
+			"ip": "45.137.199.243:25581",
+			"link": "http://45.137.199.243:25770",
+			"markerVisibilityMode": "All",
+			"markerLayers": [
+				"squaremap-spawn_icon",
+				"squaremap-worldborder"
+			],
+			"individualMarkerMode": "BlackList",
+			"markers": [],
+			"areaMarkerVisibilityMode": "All",
+			"areaMarkerLayers": [
+				"squaremap-spawn_icon",
+				"squaremap-worldborder"
+			],
+			"individualAreaMarkerMode": "BlackList",
+			"areaMarkers": [],
+			"iconMarkerVisibilityMode": "All",
+			"iconMarkerLayers": [
+				"squaremap-spawn_icon",
+				"squaremap-worldborder"
+			],
+			"individualIconMode": "BlackList",
+			"icons": [],
+			"dimensionMapping": {
+				"minecraft:overworld": [
+					"minecraft_overworld"
+				]
+			}
+		}
+	],
+	"maxUpdateDelay": 2000,
+	"defaultY": 64,
+	"minimapWaypointsRenderBelow": "WHEN_PLAYER_LIST_SHOWN",
+	"enablePlayerWaypoints": true,
+	"showPlayerWaypointsAsTrackedPlayers": true,
+	"interpolationTime": 100,
+	"enablePlayerIconWaypoints": true,
+	"useMcHeadsPlayerNameIcons": false,
+	"playerWaypointColor": "Black",
+	"showAfkInTabList": true,
+	"timeUntilAfk": 120,
+	"showAfkTimeInTabList": true,
+	"hideAfkMinutes": false,
+	"AfkColor": 16733440,
+	"unknownAfkStateColor": 6316128,
+	"enableMarkerWaypoints": true,
+	"enableMarkerIcons": true,
+	"showDefaultMarkerIcons": true,
+	"markerWaypointColor": "Gray",
+	"enableAreaMarkerOverlay": true,
+	"areaFillAlphaMul": 100,
+	"areaFillAlphaMin": 0,
+	"areaFillAlphaMax": 42,
+	"areaLineAlphaMul": 100,
+	"areaLineAlphaMin": 0,
+	"areaLineAlphaMax": 100,
+	"blocksPerChunkThreshold": 128,
+	"maxChunkArea": 500000,
+	"excludeOPAC": true,
+	"ignoredServers": [],
+	"ignoreMarkerMessage": false,
+	"hideAllChatErrors": false,
+	"invisibilityRecovery": true,
+	"debugMode": false,
+	"chatLogInDebugMode": false,
+	"ignoreCertificatesUseAtYourOwnRisk": false,
+	"configVersionDoNotEdit": 2
+}
